@@ -15,8 +15,8 @@ tar -zcf "$DEST/iamcs-backup-$DIA.tgz"  "$FILES_DIR"
 FILE="$DEST/iamcs.sql".`date +%Y%m%d%H%m`
 DBSERVER=127.0.0.1
 DATABASE=iamcs
-USER=
-PASS=
+USER=onairda
+PASS=odacam
 
 # (2) in case you run this more than once a day, remove the previous version of the file
 unalias rm     2> /dev/null
